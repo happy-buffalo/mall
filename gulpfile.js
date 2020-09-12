@@ -64,4 +64,3 @@ exports.sass = fnSass;
 exports.img = fnImg;
 exports.copyIndex = fnCopyIndex;
 exports.default = fnWatch;
-exports.lib = fnLib;

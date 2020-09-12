@@ -1,0 +1,51 @@
+@charset "utf-8";
+#header{
+    background: #333333;
+}
+.header-con{
+    width: 1196px;
+    height: 32px;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+.span_l a{
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+}
+.span_l, a:hover{
+    color: #2884c7;
+}
+.span_l span{
+    color: white;
+}
+.span_l a:nth-child(2){
+    padding-left: 10px;
+}
+
+.span_r a{
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    float: left;
+}
+.span_r a:nth-child(2){
+    margin: 0 10px;
+    padding: 0 5px;
+    height: 32px;
+}
+.span_r a:hover{
+    color: #2884c7;
+}
+.span_r a:nth-child(2):hover{
+    background-color: white;
+}
+.span_r a:nth-child(3){
+    padding: 0 20px 0 5px;
+}
+.span_r a:nth-child(3):hover{
+    background-color: white;
+}
+

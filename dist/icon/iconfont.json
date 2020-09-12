@@ -1,0 +1,37 @@
+{
+  "id": "2063216",
+  "name": "mall",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "310643",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "881589",
+      "name": "7",
+      "font_class": "7",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1160256",
+      "name": "zheng",
+      "font_class": "zheng",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "1654624",
+      "name": "小货车",
+      "font_class": "xiaohuoche",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}
