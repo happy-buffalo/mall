@@ -6,7 +6,7 @@
     width: 1196px;
     height: 32px;
     margin: 0 auto;
-    background-color: royalblue;
+    position: relative;
 }
 .span_l a{
     color: white;
@@ -14,7 +14,7 @@
     line-height: 32px;
     font-size: 14px;
 }
-.span_l, a:hover{
+.span_l a:hover{
     color: #2884c7;
 }
 .span_l span{
@@ -24,12 +24,15 @@
     padding-left: 10px;
 }
 
+
+
 .span_r a{
     color: white;
     text-align: center;
     line-height: 32px;
     font-size: 14px;
     float: left;
+    display: block;
 }
 .span_r a:nth-child(2){
     margin: 0 10px;
