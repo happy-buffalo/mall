@@ -49,12 +49,20 @@ function fnCopyIndex() {
     return gulp.src('../mall/src/index.html')
         .pipe(gulp.dest('../mall/dist'));
 }
+//复制子页
+function fnCopyPages() {
+    return gulp.src('./src/pages/*.html')
+        .pipe(gulp.dest('./dist/pages'));
+}
+
+
 
 //监听任务
 function fnWatch() {
     gulp.watch('../mall/src/sass/*.scss', fnSass);
     gulp.watch('../mall/src/js/*.js', fnJS);
     gulp.watch('../mall/src/index.html', fnCopyIndex);
+    gulp.watch('../mall/src/pages/*.html', fnCopyPages);
 }
 
 
@@ -64,3 +72,4 @@ exports.sass = fnSass;
 exports.img = fnImg;
 exports.copyIndex = fnCopyIndex;
 exports.default = fnWatch;
+exports.copyPages = fnCopyPages;
