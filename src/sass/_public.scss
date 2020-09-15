@@ -52,3 +52,112 @@
     background-color: white;
 }
 
+//footer_title
+#footer_title{
+    width: 1903px;
+    background-color: #f2f2f2;
+    .footer_title_con{
+        width: 1196px;
+        height: 78px;
+        margin: 0 auto;
+        top: -78px;
+        position: absolute;
+        background-color: #f2f2f2;
+        li{
+            
+            width: 299px;
+            height: 38px;
+            float: left;
+            margin-top: 20px;
+            text-align: center;
+            i{
+                font-size: 38px;
+                vertical-align: middle;
+                color: grey;
+            }
+            a{
+                font-size: 18px;
+                vertical-align: middle;
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+// footer
+#footer{
+    background: #151515;
+    .footer-con{
+        width: 1196px;
+        height: 251px;
+        margin: 0 auto;
+        position: relative;
+     
+        .footer_help{
+            width: 1196px;
+            height: 147px;
+            padding-top: 28px;
+            padding-left: 59px;
+      
+           ul{
+               width: 200px;
+               height: 97px;
+               float: left;
+               li{
+                width: 200px;
+                height: 22px;
+                float: left;
+                h4{
+                    width: 200px;
+                    height: 31px;
+                    font-size: 14px;
+                    color: #C4C2C2;
+                }
+                a{
+                    color: #888888;
+                    font-size: 12px;
+                }
+                a:hover{
+                    color: #2884C7;
+                }
+            }
+           }
+            .telephone{
+                float: left;
+                width: 240px;
+                height: 23px;
+                font-size: 14px;
+                color: #F05353;
+                line-height: 23px;
+            }
+            .line{
+                float: left;
+                width: 240px;
+                height: 27px;
+                color: white;
+                line-height: 27px;
+                font-size: 12px;
+            }
+        }
+
+        .footer_down{
+            width: 1196px;
+            height: 45px;
+            border-top: 1px solid #373737;
+            
+            .footer_copyright{
+                width: 1196px;
+                height: 21px;
+                text-align: center;
+                line-height: 21px;
+                color: #888888;
+                font-size: 12px;
+            }
+        }
+
+
+    }
+}
+
