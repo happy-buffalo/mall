@@ -117,6 +117,7 @@
                             line-height: 42px;
                             font-size: 14px;
                         }
+                        
                     }
 
                     .login_btn{
@@ -130,6 +131,10 @@
                         width: 380px;
                         height: 38px;
                         background-color: #009DE6;
+                        
+                    }
+                    .login_btn:hover{
+                        opacity: .8;
                     }
                 }
                 .login_footer{

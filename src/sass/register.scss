@@ -1,0 +1,148 @@
+
+
+.logo-con{
+    width: 1440px;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    .logo{
+        width: 163px;
+        height: 47px;
+        margin:30px 60px 45px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+//register
+#register{
+    background: url(../img/operatbg.jpg) no-repeat center;
+    .register-con{
+        overflow: hidden;
+        width: 1440px;
+        height: 483px;
+        margin: 0 auto;
+       
+        .register_wrap{
+            width: 1440px;
+            height: 473px;
+            margin-top: 10px;
+           
+            .register_box{
+                width: 430px;
+                height: 460px;
+                float: right;
+                margin-right: 20px;
+                position: relative;
+                background-color: white;
+                .register_top{
+                    width: 380px;
+                    height: 40px;
+                
+                    margin: 0 auto;
+                    line-height: 40px;
+                    .span{
+                        float: left;
+                        font-size: 18px;
+                        color: #333;
+                    }
+                    a{
+                        float: right;
+                        font-size: 14px;
+                        color: #529bef;
+                    }
+                }
+                .register_ul{
+                    width: 380px;
+                    height: 305px;
+                    margin: 20px auto 0;
+                    
+                    li{
+                        width: 380px;
+                        height: 44px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 15px;
+                        i{
+                            display: block;
+                            width: 25px;
+                            height: 29px;
+                            float: left;
+                            margin-top: 12px;
+                            margin-left: 10px;
+                            margin-right: 8px;
+                            background: url(../img/bg.png) no-repeat;
+                            background-position: 5px 1px;
+                        }
+                        input{
+                            width: 270px;
+                            height: 42px;
+                            float: left;
+                            border: none;
+                            height: 25px;
+                            margin-top: 12px;
+                        }
+                    }
+                   
+                    .register_2{
+                        i{
+                            background-position: -196px 1px;
+                        }
+                    }
+                    .register_3{
+                        i{
+                            background-position: -296px 1px;
+                        }
+                    }
+                    .code_box{
+                        width: 380px;
+                        height: 46px;
+                         .register_4{
+                            width: 230px;
+                            float: left;
+                            input{
+                                width: 176px;
+                            }
+                            i{
+                                background-position: -399px 1px;
+                            }
+                    }
+                            a{
+                                width: 136px;
+                                height: 42px;
+                                border: 1px solid #419ce3;
+                                display: block;
+                                color: #419ce3;
+                                text-align: center;
+                                font-size: 14px;
+                                float: right;
+                                line-height: 42px;
+                            }
+                    }
+                   
+                   
+                }
+                .register_btn{
+                    a{
+                        position: absolute;
+                        bottom: 75px;
+                        display: block;
+                        width: 380px;
+                        height: 42px;
+                        text-align: center;
+                        line-height: 42px;
+                        color: white;
+                        font-size: 18px;
+                        background-color: #009DE6;
+                        letter-spacing: 20px;
+                        left: 26px;
+                    }
+                    a:hover{
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+    }
+}
